@@ -1,0 +1,76 @@
+
+    h1{
+        color: rgb(7, 23, 248);
+        margin-right: 70px 
+
+    }
+    *{
+        border: solid;
+    }
+
+    .header{
+        background-color: #912033 ;
+        display:flex;
+
+        
+
+    }
+
+    .games{
+        background-color: #130307;
+        display:flex;
+        flex-wrap:nowrap;
+        justify-content: space-evenly
+    }
+
+    .software{
+        background-color : #091177;
+        display:flex;
+        
+        justify-content: space-around;
+
+    }
+
+    .games{
+        background-color: #010975;
+        display:flex;
+
+        justify-content: space-evenly;
+    }
+
+    .title1{
+        background-color: #042983;
+        display:flex;
+
+        justify-content: flex-end;
+    }
+    a:link{
+        color: #484890
+    
+    }
+
+    a:visited{
+        color: #e70013
+    }
+
+    .software{
+        position: relative;
+    }
+
+    .software p{
+        position: obsolute;
+        top: 50%;
+        left : 50%;
+    
+        transform:translate(-50%, -50%);
+        opacity: 0;
+    }
+
+
+
+
+
+
+
+
+    
